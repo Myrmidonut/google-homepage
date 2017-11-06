@@ -19,7 +19,12 @@ body {
 	margin-right: 105px;
 }
 
+.center {
+	vertical-align: middle;
+}
+
 .navbarButton {
+	
 	float: right;
 	width: 50px;
 	height: 50px;
