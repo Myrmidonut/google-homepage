@@ -1,0 +1,76 @@
+<!-- 
+Navbar:
+    right: Gmail Bilder App-Menu Bell Progile-Image
+    font/symbol-color: grey, hover: black underscore
+
+Main:
+    image
+    search-bar microphone inside on the right, shadow, stronger shadow on hover
+    Buttons: Google-Suche Auf gut Glück!, background: light grey, font: grey, hover: border, font: black
+
+Botbar:
+    left: Österreich
+    left, links: Werbeprogramme Unternehmen Über Google right, links: Datenschutzerklärung Nutzungsbedingungen Einstellungen Google.com verwenden
+    background: light grey
+    light border
+    hover: underscore
+
+
+min-width is Bottom Bar with no space between left and right buttons
+margin left = margin right
+margin top = margin bottom = 0.5 x margin left 
+
+title: Google
+-->
+
+
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+	<meta charset="UTF-8">
+	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div id="navbar">		
+		<div class="navbarButton"><a href="#"><img class="center" src="profile.png"></a></div>	
+		<div class="navbarButton"><a href="#"><img class="center" src="bell.png"></a></div>
+		<div class="navbarButton"><a href="#"><img class="center" src="menu.png"></a></div>
+		<div class="navbarButton"><a href="#">Bilder</a></div>
+		<div class="navbarButton"><a href="#">Gmail</a></div>
+	</div>
+
+	<div id="main">
+		<img src="logo.png" alt="Google Logo" id="logo">
+		<div>
+			<form>
+				<input type="text" name="" id="search">
+			</form>
+		</div>
+
+		<div id="buttons">
+			<button id="buttonLeft">Google-Suche</button>
+			<button id="buttonRight">Auf gut Glück!</button>
+		</div>
+
+	</div>
+
+	<div id="bottomBar">
+		<div id="bottomBarTop">
+			Österreich
+		</div>
+
+		<div id="bottomBarBottom">
+			<div class="bottomButtonLeft"><a href="#">Werbeprogramme</a></div>
+			<div class="bottomButtonLeft"><a href="#">Unternehmen</a></div>
+			<div class="bottomButtonLeft"><a href="#">Über Google</a></div>
+
+			<div class="bottomButtonRight"><a href="#">Einstellungen</a></div>
+			<div class="bottomButtonRight"><a href="#">Nutzungsbedingungen</a></div>			
+			<div class="bottomButtonRight"><a href="#">Datenschutzerklärung</a></div>
+		</div>
+	</div>
+
+</body>
+</html>
